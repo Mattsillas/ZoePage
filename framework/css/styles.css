@@ -1,8 +1,105 @@
 body{
   font-family: 'Lato', sans-serif;
-  color: #47B28F;
+  color: #00000;
   font-weight: 300;
-  background-color: #FAFAFA;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background: url(../../images/background.jpg) no-repeat bottom center scroll;
+}
+
+.regular-color{
+  color: white;
+}
+nav {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-bottom-color: #8F8C8C !important;
+  padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(43,22,22,0.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        border-bottom: 1px solid #CCFF99;
+		-webkit-background-clip: padding-box; /* for Safari */
+		background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #8FB26B !important;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid #8FB26B !important;
+    }
+}
+/*.navbar-padding {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.navbar-title {
+  font-size: 45px;
+  padding-left: 30px;
+  padding-top: 20px
+}*/
+
+.regular-font {
+  font-family: 'Lato', sans-serif !important;
+  color: #00000 !important;
+  font-weight: 300 !important;
 }
 
 .text-muted {
