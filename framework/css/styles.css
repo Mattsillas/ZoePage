@@ -1,14 +1,30 @@
 body{
   font-family: 'Lato', sans-serif;
-  color: #00000;
+  color: #FFFFFF;
   font-weight: 300;
   padding-top: 100px;
   padding-bottom: 20px;
-  background: url(../../images/background.jpg) no-repeat bottom center scroll;
+  background: url(../../images/background1.jpg) no-repeat bottom center scroll;
+  background-size: cover;
+  background-color: #000;
 }
-
+.position-down{
+  position: relative;
+  top: 8px;
+}
+.position-right{
+  position: relative;
+  right: 40px;
+}
 .regular-color{
   color: white;
+}
+.position-left{
+  position: relative;
+  left: 30px;
+}
+.modal-text-color{
+  color: #000000 !important;
 }
 nav {
   background-color: transparent !important;
@@ -79,27 +95,21 @@ nav {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #8FB26B !important;
+        background-color: rgba(143, 178, 178, 0.50) !important;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid #8FB26B !important;
+        border-bottom: 1px solid rgba(143, 178, 178, 0.50) !important;
     }
 }
-/*.navbar-padding {
-  padding-top: 20px;
-  padding-right: 30px;
-}
-.navbar-title {
-  font-size: 45px;
-  padding-left: 30px;
-  padding-top: 20px
-}*/
 
+.navbar-padding{
+  padding-bottom: 10px;
+}
 .regular-font {
   font-family: 'Lato', sans-serif !important;
   color: #00000 !important;
-  font-weight: 300 !important;
+  font-weight: 200 !important;
 }
 
 .text-muted {
@@ -112,7 +122,7 @@ nav {
   margin:0 auto;
 }
 .title-super {
-  font-size: 45px;
+  font-size: 35px;
 }
 .margin-top {
   margin-top: 20px;
@@ -144,7 +154,7 @@ nav {
   position: absolute;
   overflow: hidden;
   width: 80%;
-  height: 80%;
+  height: 65%;
   left: 10%;
   top: 10%;
   border-bottom: 1px solid #FFF;
